@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549458475215.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9BDB9A4F",
+    "lastKnownWriteTime" : 1549459415,
+    "last_content_update" : 1549460514602,
+    "path" : "~/Documents/Data Science/R 4 DS/chapter3/3-3-1_exercise.R",
+    "project_path" : "3-3-1_exercise.R",
+    "properties" : {
+        "cursorPosition" : "29,13",
+        "scrollLine" : "8",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

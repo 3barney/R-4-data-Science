@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549459264261.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7B8DE7CC",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1549459264261,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "FC21F9E5",
+        "caption" : "fuel_economy_data",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=fuel_economy_data&cache_key=FC21F9E5",
+        "displayedObservations" : 234,
+        "environment" : "",
+        "object" : "fuel_economy_data",
+        "preview" : 0,
+        "totalObservations" : 234,
+        "variables" : 11
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

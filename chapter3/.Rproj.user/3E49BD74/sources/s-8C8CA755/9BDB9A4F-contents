@@ -1,0 +1,31 @@
+library(tidyverse)
+
+# Assing mpg data to our data variable
+fuel_economy_data <- mpg
+
+# 1. What’s gone wrong with this code? Why are the points not blue?
+ggplot(data = fuel_economy_data) +
+  geom_point(mapping = aes(x = displ, y = hwy, color = "blue"))
+
+## Its trying to set the color aesthetic manually, hence it should go outside of the aes function,
+## color being aesthetic should map to a variable
+
+
+# 2. Which variables in mpg are categorical? Which variables are continuous?
+?mpg
+
+## Categorical -> manufacturer, model, cyl, trans, drv, fl, class
+## Continous   -> displ, year, cty, hwy,
+
+
+# 3. Map a continuous variable to color, size, and shape.
+#    How do these aesthetics behave differently for categorical vs. continuous variables?
+ggplot(data = fuel_economy_data) +
+  geom_point(mapping = aes(x = displ, y = hwy, color=year))
+
+ggplot(data = fuel_economy_data) +
+  geom_point(mapping = aes(x = displ, y = hwy, size=yeat))
+
+ggplot(data = fuel_economy_data) +
+  geom_point()
+
