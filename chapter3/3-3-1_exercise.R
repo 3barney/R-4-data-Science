@@ -7,6 +7,7 @@ fuel_economy_data <- mpg
 ggplot(data = fuel_economy_data) +
   geom_point(mapping = aes(x = displ, y = hwy, color = "blue"))
 
+
 ## Its trying to set the color aesthetic manually, hence it should go outside of the aes function,
 ## color being aesthetic should map to a variable
 
@@ -57,4 +58,7 @@ ggplot(data = fuel_economy_data) +
 ## the points on map using the split mapping (<5 to True) (>5 to false) with different colors for the 
 ## two.
 
-
+####### 3.5.1
+ggplot(data = fuel_economy_data) + 
+  geom_point(mapping = aes(x = drv, y = cyl)) +
+  facet_wrap(~ displ)
